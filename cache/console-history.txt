@@ -1,0 +1,8 @@
+await (await policy.connect(user).buyPolicy(ethers.parseEther("0.5"), 123, { value: ethers.parseEtheawait (await policy.triggerPoli
+const policy = await Policy.deploy(await deployer.getAddress(), await treasury.get
+const Policy = await ethers.getContractFactory("Policy");
+const Treasury = await ethers.getContractFactoryconst treasury = await Treasury.deploy(await deployer.getAddress()); await treasury.waitForDeployment();
+const [deployer, user] = await ethers.getSigners();
+const treasury = await Treasury.deplconst Policy = await ethers.getContractFactory("Policy");
+const Treasury = await ethers.getContractFactory("Treasury");
+const [deployer, user] = await ethers.getSigners();
